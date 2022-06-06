@@ -21,15 +21,18 @@ function App() {
       {/* <Hello title='function' /> */}
       {/* <Welcome title='class' info='A little more informations' /> */}
       {/* <Greet>This can also be greeting.</Greet> */}
-      
+
       {/* II. State */}
 
       {/* <Message /> */}
       {/* <Counter /> */}
 
       {/* III. Events  */}
+      <FunctionClick />
+      <ClassClick />
+      <EventBind />
 
-
+      
     </div>
   );
 }
