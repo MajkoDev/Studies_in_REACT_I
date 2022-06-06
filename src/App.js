@@ -13,26 +13,31 @@ import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
 import EventBind from "./components/EventBind";
 
+import ParentComponent from "./components_I/ParentComponent";
+
 function App() {
   return (
     <div className='App'>
       {/* Components and Props  */}
 
-      {/* <Hello title='function' /> */}
-      {/* <Welcome title='class' info='A little more informations' /> */}
-      {/* <Greet>This can also be greeting.</Greet> */}
+      {/* <Hello title='function' />
+      <Welcome title='class' info='A little more informations' />
+      <Greet>This can also be greeting.</Greet> */}
 
       {/* II. State */}
 
-      {/* <Message /> */}
-      {/* <Counter /> */}
+      {/* <Message />
+      <Counter /> */}
 
       {/* III. Events  */}
-      <FunctionClick />
+      {/* <FunctionClick />
       <ClassClick />
-      <EventBind />
+      <EventBind /> */}
 
-      
+      {/* IV. Methods as Props  */}
+      <ParentComponent />
+
+
     </div>
   );
 }
