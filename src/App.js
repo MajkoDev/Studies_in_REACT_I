@@ -10,8 +10,10 @@ import PureComp from "./components/PureComp";
 function App() {
   return (
     <div className="App">
-      <LifecycleA />
-      <Clock />
+      {/* <LifecycleA /> */}
+      {/* <Clock /> */}
+      <FragmentDemo />
+      <PureComp />
     </div>
   );
 }
