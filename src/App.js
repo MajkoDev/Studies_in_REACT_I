@@ -1,11 +1,12 @@
 // Styling
 import "./App.css";
 
-// Components: fetch data with useReducer - useCallback - 
+// Components: fetch data with useReducer - useCallback - useMemo - useRef
 import DataFetchingOne from "./components/DataFetchingOne";
 import DataFetchingTwo from "./components/DataFetchingTwo";
 import CallbackComponent from "./components/CallbackComponent";
 import Counter from "./components/Counter";
+import FocusInput from "./components/FocusInput";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <DataFetchingOne /> */}
       {/* <DataFetchingTwo /> */}
       {/* <CallbackComponent /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <FocusInput />
 
     </div>
   );
